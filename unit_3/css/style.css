@@ -1,26 +1,14 @@
-/* cyrillic */
-@font-face {
-  font-family: 'Exo 2';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Exo 2'), local('Exo2-Regular'), url(http://fonts.gstatic.com/s/exo2/v3/67PFCF-E5tJ4OT0xf2g4_4DGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,200,300,400italic,700,800,900,700italic,800italic,300italic,500,600,600italic,500italic,200italic);
+
+body,
+html {
+  min-height: 100%;
 }
-/* latin-ext */
-@font-face {
-  font-family: 'Exo 2';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Exo 2'), local('Exo2-Regular'), url(http://fonts.gstatic.com/s/exo2/v3/TcVKmYnemVyF2Qc-sZ-RtYDGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Exo 2';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Exo 2'), local('Exo2-Regular'), url(http://fonts.gstatic.com/s/exo2/v3/mJrGVjHbrdshrbGyvd7vdaCWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+
+body {
+	background-image: url("../images/Bg_image.png");
+	background-repeat: no-repeat;
+  	background-size: Cover;
 }
 
 video#bgvid {
@@ -35,25 +23,38 @@ video#bgvid {
 	z-index:-1;
 }
 
-body {
-	font-family: "Exo 2", sans-serif;
+.text-wrapper{
+	background-color: rgba(0,0,0,0.65);
 }
 
 h1 {
-	font-weight: Medium;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
 	color: #FFFFFF;
-	text-transform: Uppercase;
-	font-size: 55px
+	font-size: 50px
 }
 
 h4 {
-	font-weight: Thin;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 300;
 	color: #FFFFFF;
 	font-size: 14px
 }
 
 h5 {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 700;
 	color: #FFFFFF;
 	text-decoration: None;
 	font-size: 11px
+}
+
+a { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #84BD00;
+
 }
