@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,200,300,400italic,700,800,900,700italic,800italic,300italic,500,600,600italic,500italic,200italic);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*body {
+	background-image: url("../images/Bg_image.png");
+	background-repeat: no-repeat;
+  	background-size: Cover;
+  	padding: 20px;
+}*/
+
+body {
+	background-color: #000000;
+	font-family: 'Exo 2', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+video#bgvid {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 0 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	z-index:-1;
+}
+
+header {
+	padding: 40px 0;
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+
+/*	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;*/
+}
+
+img#graphic {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	z-index:-1;
+}
+
+main {
+	#
+}
+
+.text-wrapper{
+	background-color: rgba(0,0,0,0.65);
+	padding: 1em;
+	margin-top: 6em;
+	margin-right: 53em;
+	margin-bottom: 6em;
+	margin-left: 10em;
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;
+
+/*	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;*/
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+	color: #FFFFFF;
+	line-height: 1em;
+	margin-bottom: 23px;
+}
+
+h4 {
+	font-weight: 200;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-bottom: 1em;
+}
+
+h5 {
+	font-weight: 200;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+a { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #84BD00;
+}
+
+footer{
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+
+/*	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;*/
+}
+footer p {
+	float: right;
+}
+
+#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+
+/*	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px;*/
+}
