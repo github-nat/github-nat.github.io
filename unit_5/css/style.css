@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Exo+2:400,200,300,400italic,700,800,900,700italic,800italic,300italic,500,600,600italic,500italic,200italic);
 
 * {
-	padding: 0;
+/*	padding: 0;*/
 	margin: 0;
 }
 
@@ -23,11 +23,12 @@ video#bgvid {
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	min-width: 0 100%;
-	width: auto;
+/*	min-width: 0 100%;
+	width: auto;*/
 	height: auto;
 	background-size: cover;
 	z-index:-1;
+	width:100%;
 }
 
 header {
@@ -58,8 +59,8 @@ main {
 }
 
 .text-wrapper{
-	background-color: rgba(0,0,0,0.65);
-	padding: 1em;
+/*	background-color: rgba(0,0,0,0.65);*/
+/*	padding: 1em;*/
 	margin-top: 6em;
 	margin-right: 53em;
 	margin-bottom: 6em;
@@ -67,6 +68,7 @@ main {
 	background-color: #ffe2b8;
 	border: 1px black solid;
 	padding: 20px;
+	width: 35%;
 
 /*	background-color: #ffe2b8;
 	border: 1px black solid;
@@ -108,6 +110,11 @@ footer{
 	background-color: #ff957e;
 	border: 1px black solid;
 	padding: 20px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: left;
 
 /*	background-color: #ff957e;
 	border: 1px black solid;
@@ -118,7 +125,7 @@ footer p {
 }
 
 #wrapper {
-	width: 1080px;
+	width: 100%;
 	margin: 0 auto;
 
 /*	background-color: #ffe2b8;

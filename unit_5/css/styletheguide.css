@@ -40,6 +40,8 @@ h4 {
 	color: #FFFFFF;
 	text-decoration: none;
 	padding-bottom: 1em;
+/*	display: inline-block;
+	width: 40%;*/
 }
 
 h5 {
@@ -132,8 +134,9 @@ a:hover {
 }
 
 main {
-	width: 925px;
-	float: right;
+	width: 25%;
+	float: left;
+	margin: left;
 }
 span{
 	font-style: italic;
@@ -151,7 +154,6 @@ section{
 }
 
 #image-group {
-	#
 	background-color: #ffe2b8;
 	border: 1px black solid;
 	padding: 20px;
