@@ -104,7 +104,7 @@ aside {
 	padding-top: 20px;
 	float: left;
 	/*width: 122px;*/
-	width: 30%;
+	width: 10%;
 	text-align: right;
 	background-color: #violet;
 	border: 1px black solid;
@@ -127,7 +127,7 @@ nav a {
 	text-decoration: none;
 	background-color: #e8c66a;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 5px;
 
 /*	background-color: #e8c66a;
 	border: 1px black solid;
@@ -157,9 +157,10 @@ a:hover {
 }
 
 main {
-	width: 25%;
+	width: 80%;
 	float: left;
 	margin: left;
+	margin-left: 24px;
 
 	background-color: pink;
 	border: 1px black solid;
@@ -223,4 +224,14 @@ footer p {
 /*	background-color: #ffe2b8;
 	border: 1px black solid;
 	padding: 20px;*/
+}
+
+.inner-column-one{
+	width: 30%;
+	display: inline-block;
+}
+
+.inner-column-two{
+	width: 60%;
+	display: inline-block;
 }

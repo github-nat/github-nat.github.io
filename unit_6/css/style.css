@@ -110,6 +110,10 @@ a:hover {
 	padding-bottom: 2px;
 }
 
+#explore-button {
+	border: none;
+}
+
 footer{
 	background-color: #ff957e;
 	border: 1px black solid;
