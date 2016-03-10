@@ -151,9 +151,8 @@ a:hover {
 	padding-bottom: 2px;
 }
 
-.button{ 
-	border-bottom: none;
-	text-decoration: none;
+a#explore-button {
+	border: none;
 }
 
 main {
@@ -181,18 +180,48 @@ section{
 }
 
 .thumbnail {
-	float: left;
+	float: none;
+	display: inline-block;
 /*	width: 100px;*/
 /*	border: 1px solid #999;
 	margin: 0 15px 15px 0;
 	padding: 5px;*/
 }
 
+#thumb-column1{
+	width: 45%;
+	display: inline-block;
 
-#image-group {
+}
+
+#thumb-column2{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#thumb1{
+	width: 100%;
+	display:inline-block;
+}
+
+#thumb2{
+	width: 45%;
+	display:inline-block;
+}
+
+#thumb3{
+	width: 45%;
+}
+
+#thumb4{
+	width: 100%;
+}
+
+/*#image-group {
 	background-color: #ffe2b8;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 20px;*/
 
 /*	background-color: #ffe2b8;
 	border: 1px black solid;
@@ -229,6 +258,7 @@ footer p {
 .inner-column-one{
 	width: 30%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .inner-column-two{
