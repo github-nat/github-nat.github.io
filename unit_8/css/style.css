@@ -210,5 +210,9 @@ footer h5{
 	}	
 }
 
-
+@media screen and (max-width: 320px){
+		.text-wrapper{
+		margin: 1.75em;
+	}
+}
 
